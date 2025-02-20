@@ -3,6 +3,28 @@ body {
 }
 
 img {
-    max-width: 40%;
+    max-width: 15%;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0077cc !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin: 1rem;
+    text-align: center;
 }
