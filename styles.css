@@ -64,6 +64,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-size: 1.2em;
 }
 
 .description {
@@ -77,4 +78,26 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.portfolio a{
+    text-decoration: none;
+    color: rgb(46, 131, 234);
+    padding-bottom: 20px;
+}
+
+.skills {
+    text-align: start;
+    padding: 30px;
+}
+.skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li {
+    padding: 5px;
 }
