@@ -1,5 +1,10 @@
+* {
+    color: black;
+}
+
 body {
     font: 100%/1.5 system-ui;
+    background: #f8f8f8;
 }
 
 img {
@@ -9,11 +14,48 @@ img {
 
 a {
     text-decoration: none;
-    color: #333;
 }
 
 a:hover {
     color: #0077cc !important;
+}
+
+/* Estilos para el header */
+header {
+    background: #333;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -27,4 +69,12 @@ a:hover {
 .description {
     margin: 1rem;
     text-align: center;
+    max-width: 1000px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
